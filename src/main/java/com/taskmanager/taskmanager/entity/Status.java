@@ -1,4 +1,6 @@
 package com.taskmanager.taskmanager.entity;
 
-public class Status {
+public enum Status {
+    PENDING,
+    COMPLETED,
 }
